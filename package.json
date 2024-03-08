@@ -1,5 +1,5 @@
 {
-  "name": "education-dtos",
+  "name": "@bawawa/education-dtos",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -12,7 +12,7 @@
     "webpack": "^5.90.3"
   },
   "publishConfig": {
-    "@bawawa:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": "https://github.com/education-root/education-dtos"
 }
