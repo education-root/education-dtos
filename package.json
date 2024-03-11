@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nestjs/swagger": "^7.3.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.2",
     "webpack": "^5.90.3",
@@ -24,5 +25,8 @@
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
-  "repository": "https://github.com/education-root/education-dtos"
+  "repository": "https://github.com/education-root/education-dtos",
+  "dependencies": {
+    "reflect-metadata": "^0.2.1"
+  }
 }
