@@ -1,5 +1,5 @@
 {
-  "name": "@bawawa/education-dtos",
+  "name": "@education-root/education-dtos",
   "version": "1.1.9",
   "description": "",
   "main": "dist/bundle.js",
