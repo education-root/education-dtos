@@ -1,6 +1,11 @@
 {
+  "include": [
+    "./src/*" // 指定要包括在编译中的文件，根据项目结构调整
+  ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
+    "declaration": true,
+    "outDir": "./dist",
 
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
