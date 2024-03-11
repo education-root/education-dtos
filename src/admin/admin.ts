@@ -4,6 +4,7 @@ export interface AdminInfoDto {
     username: string;
     password: string;
     phone: string;
+    role: "admin"|"teacher"|"head_teacher"
 }
 
 export interface LoginDto {
