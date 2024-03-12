@@ -1,8 +1,9 @@
 import 'reflect-metadata';
-import {AdminInfoDto, LoginDto} from './admin/admin'
+import {AdminInfoDto, LoginDto, QueryConditionDto} from './admin/admin'
 
 
 export {
     AdminInfoDto,
-    LoginDto
+    LoginDto,
+    QueryConditionDto
 }
