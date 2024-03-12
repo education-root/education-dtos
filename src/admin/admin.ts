@@ -16,4 +16,6 @@ export class QueryConditionDto{
     role?: "admin"|"teacher"|"head_teacher"
     username?: string
     phone?:string
+    page: number=1;
+    pageSize: number=10;
 }
