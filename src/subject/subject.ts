@@ -10,11 +10,11 @@ export class UnitDto{
 export class ChapterDto{
     id?: string
     name: string=""
-    units: UnitDto[]=[]
+    units?: UnitDto[]
 }
 
 export class SubjectDto{
     id?: string
     name?: string=""
-    chapters: ChapterDto[] = []
+    chapters?: ChapterDto[]
 }
