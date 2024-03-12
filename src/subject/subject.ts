@@ -1,4 +1,3 @@
-import {QueryConditionDto} from "../admin/admin";
 
 
 export class UnitDto{
@@ -22,20 +21,20 @@ export class SubjectDto{
 
 export class QuerySubjectDto{
     page: number=1;
-    size: number=10;
+    pageSize: number=10;
     name?: string;
 }
 
 export class QueryChapterDto{
     page: number=1;
-    size: number=10;
+    pageSize: number=10;
     subjectId: string="";
     name?: string;
 }
 
 export class QueryUnitDto{
     page: number=1;
-    size: number=10;
+    pageSize: number=10;
     chapterId: string="";
     name?: string;
 }
