@@ -12,3 +12,10 @@ export class TopicDto{
     analysis:string="";
     options: Options[]=[];
 }
+
+export class QueryTopic{
+    page: number=1;
+    pageSize: number=10;
+    subjectId?: string;
+    question?:string;
+}
