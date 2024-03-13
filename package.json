@@ -1,6 +1,6 @@
 {
   "name": "@education-root/education-dtos",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
