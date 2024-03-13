@@ -1,5 +1,5 @@
 
-export class Options{
+export class OptionDto{
     id?: string;
     content: string="";
     is_correct: boolean=false;
@@ -10,7 +10,7 @@ export class TopicDto{
     question: string="";
     type: 'single-choice' | 'multiple-choice' | 'true-false'="single-choice";
     analysis:string="";
-    options: Options[]=[];
+    options: OptionDto[]=[];
 }
 
 export class QueryTopicDto{
