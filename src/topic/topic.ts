@@ -5,6 +5,7 @@ export class Options{
     is_correct: boolean=false;
 }
 export class TopicDto{
+    subjectId: string="";
     id?: string;
     question: string="";
     type: 'single-choice' | 'multiple-choice' | 'true-false'="single-choice";
