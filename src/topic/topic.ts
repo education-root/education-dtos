@@ -13,7 +13,7 @@ export class TopicDto{
     options: Options[]=[];
 }
 
-export class QueryTopic{
+export class QueryTopicDto{
     page: number=1;
     pageSize: number=10;
     subjectId?: string;
