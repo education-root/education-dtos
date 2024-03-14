@@ -9,6 +9,7 @@ export class AdminInfoDto {
 export class LoginDto {
     username: string="";
     password: string="";
+    type: "admin"| "head_teacher" | "teacher" = "admin";
 }
 
 export class QueryConditionDto{
