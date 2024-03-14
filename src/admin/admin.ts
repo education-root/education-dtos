@@ -14,7 +14,7 @@ export class LoginDto {
 
 export class QueryConditionDto{
     id?: string;
-    role?: "admin"|"teacher"|"head_teacher"
+    role_name?: "admin"|"teacher"|"head_teacher"
     username?: string
     phone?:string
     page: number=1;
