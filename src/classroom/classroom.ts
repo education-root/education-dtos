@@ -5,7 +5,7 @@ export class CreateClassroomDto{
 
 export class ClassroomTeacherDto{
     classroomId: string=""
-    teacherId: string=""
+    teacherIds: string[]=[]
 }
 
 export class ClassroomQueryDto{
