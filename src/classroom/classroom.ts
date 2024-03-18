@@ -8,6 +8,11 @@ export class ClassroomTeacherDto{
     teacherIds: string[]=[]
 }
 
+export class ClassroomStudentDto{
+    classroomId: string=""
+    studentIds: string[]=[]
+}
+
 export class ClassroomQueryDto{
     name?:string;
     page: number=1;
