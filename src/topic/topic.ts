@@ -20,3 +20,11 @@ export class QueryTopicDto{
     unitId?: string;
     question?:string;
 }
+interface topic{
+    topicId: string
+    answerIds: string[]
+}
+export class TopicJudgmentDto{
+    result:topic[]=[];
+}
+
