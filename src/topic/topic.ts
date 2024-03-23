@@ -27,5 +27,6 @@ interface topic{
 }
 export class TopicJudgmentDto{
     result:topic[]=[];
+    exerciseName: string=""
 }
 
