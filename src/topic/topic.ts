@@ -12,6 +12,7 @@ export class TopicDto{
     type: 'single-choice' | 'multiple-choice' | 'true-false'="single-choice";
     analysis:string="";
     options: OptionDto[]=[];
+    relationUnit: string ="";
 }
 
 export class QueryTopicDto{
