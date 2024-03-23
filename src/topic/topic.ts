@@ -6,7 +6,7 @@ export class OptionDto{
     topicId?: string
 }
 export class TopicDto{
-    subjectId: string="";
+    unitId: string="";
     id?: string;
     question: string="";
     type: 'single-choice' | 'multiple-choice' | 'true-false'="single-choice";
@@ -17,6 +17,6 @@ export class TopicDto{
 export class QueryTopicDto{
     page: number=1;
     pageSize: number=10;
-    subjectId?: string;
+    unitId?: string;
     question?:string;
 }
