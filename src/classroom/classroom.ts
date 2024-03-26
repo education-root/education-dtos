@@ -13,6 +13,11 @@ export class ClassroomStudentDto{
     studentIds: string[]=[]
 }
 
+export class ClassroomStockDto{
+    classroomId: string="";
+    stockIds: string[]=[]
+}
+
 export class ClassroomQueryDto{
     name?:string;
     page: number=1;
