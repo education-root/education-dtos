@@ -4,6 +4,8 @@ export class SubQuestionDto{
     content: string="";
     questionId?: string
 }
+
+
 export class QuestionDto{
     id?: string;
     content: string="";

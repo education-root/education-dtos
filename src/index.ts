@@ -5,3 +5,4 @@ export {OptionDto, TopicDto, QueryTopicDto,TopicJudgmentDto} from './topic/topic
 export {CreateClassroomDto, ClassroomTeacherDto, ClassroomQueryDto, ClassroomStudentDto} from './classroom/classroom'
 export {StockDto, QueryStockDto} from './stock/stock'
 export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto} from './question/question'
+export {DifficultyDTO} from './difficulty/difficulty'
