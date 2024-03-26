@@ -4,4 +4,4 @@ export {SubjectDto, ChapterDto, UnitDto, QueryChapterDto,QuerySubjectDto,QueryUn
 export {OptionDto, TopicDto, QueryTopicDto,TopicJudgmentDto} from './topic/topic'
 export {CreateClassroomDto, ClassroomTeacherDto, ClassroomQueryDto, ClassroomStudentDto} from './classroom/classroom'
 export {StockDto, QueryStockDto} from './stock/stock'
-export {QuestionDto, SubQuestionDto, UpdateQuestionDto} from './question/question'
+export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto} from './question/question'

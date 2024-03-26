@@ -16,3 +16,9 @@ export class UpdateQuestionDto{
     content: string="";
     stockId: string=""
 }
+
+export class QueryQuestionDto{
+    page: number=1;
+    pageSize: number=10;
+    stockId?: string
+}
