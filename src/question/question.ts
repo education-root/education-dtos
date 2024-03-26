@@ -2,7 +2,7 @@
 export class SubQuestionDto{
     id?: string;
     content: string="";
-    questionId: string=""
+    questionId?: string
 }
 export class QuestionDto{
     id?: string;
