@@ -10,3 +10,9 @@ export class QuestionDto{
     subQuestion: SubQuestionDto[]=[]
     stockId: string=""
 }
+
+export class UpdateQuestionDto{
+    id: string="";
+    content: string="";
+    stockId: string=""
+}
