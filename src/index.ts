@@ -6,3 +6,4 @@ export {CreateClassroomDto, ClassroomTeacherDto, ClassroomQueryDto, ClassroomStu
 export {StockDto, QueryStockDto} from './stock/stock'
 export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto} from './question/question'
 export {DifficultyDTO} from './difficulty/difficulty'
+export {JoinClassDto} from './student/student'
