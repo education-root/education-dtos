@@ -3,3 +3,8 @@ export class JoinClassDto{
     phone: string=""
     classId: string=""
 }
+
+export class GenrateStudentAuth{
+    code: string="";
+    id: string=""
+}
