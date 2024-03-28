@@ -34,6 +34,7 @@ export class answer{
     answer: string="";
 }
 export class SubmitQuestionDto{
+    name?: string;
     historyId?: string;
     questionId: string="";
     list:answer[] = []
