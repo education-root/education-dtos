@@ -28,3 +28,13 @@ export class QueryQuestionDto{
     pageSize: number=10;
     stockId?: string
 }
+
+export class answer{
+    subQuestionId: string="";
+    answer: string="";
+}
+export class SubmitQuestionDto{
+    historyId?: string;
+    questionId: string="";
+    list:answer[] = []
+}
