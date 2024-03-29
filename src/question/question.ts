@@ -48,14 +48,8 @@ export class TeacherQueryHistoryDto{
     classId: string=""
 }
 
-class SubGradingDto{
-    subQuestionId: string="";
+export class GradingDto{
+    subQuestionHistoryId: string="";
     comment: string="";
     score: number=0;
-}
-export class GradingDto{
-    historyId: string ="";
-    quetionId: string ="";
-    subquestion: SubGradingDto[] = []
-
 }
