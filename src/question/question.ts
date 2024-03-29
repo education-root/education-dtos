@@ -47,3 +47,15 @@ export class TeacherQueryHistoryDto{
     pageSize: number=10
     classId: string=""
 }
+
+class SubGradingDto{
+    subQuestionId: string="";
+    comment: string="";
+    score: number=0;
+}
+export class GradingDto{
+    historyId: string ="";
+    quetionId: string ="";
+    subquestion: SubGradingDto[] = []
+
+}

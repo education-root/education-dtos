@@ -4,6 +4,6 @@ export {SubjectDto, ChapterDto, UnitDto, QueryChapterDto,QuerySubjectDto,QueryUn
 export {OptionDto, TopicDto, QueryTopicDto,TopicJudgmentDto} from './topic/topic'
 export {CreateClassroomDto, ClassroomTeacherDto, ClassroomQueryDto, ClassroomStudentDto, ClassroomStockDto} from './classroom/classroom'
 export {StockDto, QueryStockDto} from './stock/stock'
-export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto,SubmitQuestionDto,TeacherQueryHistoryDto} from './question/question'
+export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto,SubmitQuestionDto,TeacherQueryHistoryDto,GradingDto} from './question/question'
 export {DifficultyDTO} from './difficulty/difficulty'
 export {JoinClassDto,GenrateStudentAuth} from './student/student'
