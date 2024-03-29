@@ -37,7 +37,13 @@ export class answer{
 export class SubmitQuestionDto{
     name?: string;
     historyId?: string;
-    classroomId: string="";
+    classroomId?: string="";
     questionId: string="";
     list:answer[] = []
+}
+
+export class TeacherQueryHistoryDto{
+    page: number=1;
+    pageSize: number=10
+    classId: string=""
 }
