@@ -4,6 +4,7 @@ export class CreateClassroomDto{
     type: "charge" | "free"="free";
     price: number=0;
     desc?: string
+    qrcode?: string
 }
 
 export class ClassroomTeacherDto{
