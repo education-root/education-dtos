@@ -2,7 +2,8 @@ export class CreateClassroomDto{
     id?:string;
     name: string=""
     type: "charge" | "free"="free";
-    price: number=0
+    price: number=0;
+    desc?: string
 }
 
 export class ClassroomTeacherDto{
