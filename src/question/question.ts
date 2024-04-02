@@ -13,6 +13,7 @@ export class QuestionDto{
     difficultyId: string=""
     subQuestion: SubQuestionDto[]=[]
     stockId: string=""
+    type: number=1 //1-论述题 ，2-法律文书题， 3-案例分析题
 }
 
 export class UpdateQuestionDto{
