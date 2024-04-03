@@ -1,10 +1,15 @@
 
+export class KeyWordDto{
+    id?: string;
+    content: string="";
+    questionId?: string;
+}
 export class SubQuestionDto{
     id?: string;
     content: string="";
     questionId?: string;
     score: number=0;
-    keywords: string[] = []
+    keywords: KeyWordDto[] = []
 }
 
 
