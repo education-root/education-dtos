@@ -4,6 +4,7 @@ export class SubQuestionDto{
     content: string="";
     questionId?: string;
     score: number=0;
+    keywords: string[] = []
 }
 
 
