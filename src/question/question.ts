@@ -50,6 +50,12 @@ export class SubmitQuestionDto{
     list:answer[] = []
 }
 
+export class submitAllQuestionsDto{
+    name?: string;
+    classroomId?: string="";
+    questions:{questionId: string, answer: answer[]}[]=[]
+}
+
 export class TeacherQueryHistoryDto{
     page: number=1;
     pageSize: number=10
