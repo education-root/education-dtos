@@ -40,3 +40,10 @@ export class PointDto{
     score: number=0;
 }
 
+export class QueryPointDto{
+    id?: string;
+    name?: string;
+    page: number=1;
+    pageSize: number=10
+}
+
