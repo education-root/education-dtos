@@ -23,7 +23,8 @@ export class QueryTopicDto{
 }
 interface topic{
     topicId: string
-    answerIds: string[]
+    answerIds: string[],
+    time: number
 }
 export class TopicJudgmentDto{
     result:topic[]=[];
