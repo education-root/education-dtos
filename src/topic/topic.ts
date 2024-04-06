@@ -33,3 +33,10 @@ export class TopicJudgmentDto{
     submitTime: string=""
 }
 
+export class PointDto{
+    id?: string;
+    name: string="";
+    frequency: number=0;
+    score: number=0;
+}
+
