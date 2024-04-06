@@ -14,6 +14,7 @@ export class TopicDto{
     options: OptionDto[]=[];
     relationUnit: string ="";
     difficultyId: string=""
+    pointIds?: string[]
 }
 
 export class QueryTopicDto{
