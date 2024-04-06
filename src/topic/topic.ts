@@ -13,6 +13,7 @@ export class TopicDto{
     analysis:string="";
     options: OptionDto[]=[];
     relationUnit: string ="";
+    difficultyId: string=""
 }
 
 export class QueryTopicDto{
