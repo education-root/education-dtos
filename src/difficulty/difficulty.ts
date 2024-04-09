@@ -1,5 +1,5 @@
 export class DifficultyDTO{
     id?: string;
     name: string="";
-    number: number=1
+    number: number=1;
 }
