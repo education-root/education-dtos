@@ -5,6 +5,7 @@ export class CreateClassroomDto{
     price: number=0;
     desc?: string
     qrcode?: string
+    is_show: boolean = true
 }
 
 export class ClassroomTeacherDto{
