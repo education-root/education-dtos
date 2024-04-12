@@ -28,3 +28,9 @@ export class ClassroomQueryDto{
     page: number=1;
     pageSize: number = 10;
 }
+
+export class ClassroomHistoryQueryDto{
+    classroomId: string="";
+    page: number=1;
+    pageSize: number = 10;
+}
