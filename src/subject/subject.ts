@@ -16,6 +16,7 @@ export class ChapterDto{
 export class SubjectDto{
     id?: string
     name?: string=""
+    type: "practise"| "mock" = "practise"
     chapters?: ChapterDto[]
 }
 
