@@ -24,7 +24,7 @@ export class QuerySubjectDto{
     page: number=1;
     pageSize: number=10;
     name?: string;
-    type: "practice"| "mock" = "practice"
+    type?: "practice"| "mock"
 }
 
 export class QueryChapterDto{
