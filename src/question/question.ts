@@ -15,6 +15,7 @@ export class SubQuestionDto{
 
 export class QuestionDto{
     id?: string;
+    name: string="";
     content: string="";
     difficultyId: string=""
     subQuestion: SubQuestionDto[]=[]
