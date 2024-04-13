@@ -64,6 +64,12 @@ export class TeacherQueryHistoryDto{
     classId: string=""
 }
 
+export class QueryTeacherJudgeByPage{
+    page: number=1;
+    pageSize: number=10
+    teacherId: string=''
+}
+
 export class GradingDto{
     subQuestionHistoryId: string="";
     comment: string="";
