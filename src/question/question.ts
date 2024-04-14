@@ -68,6 +68,8 @@ export class QueryTeacherJudgeByPage{
     page: number=1;
     pageSize: number=10
     teacherId: string=''
+    start_time?: string
+    end_time?: string
 }
 
 export class GradingDto{
