@@ -56,6 +56,7 @@ export class SubmitQuestionDto{
 export class submitAllQuestionsDto{
     name?: string;
     classroomId?: string="";
+    stockId: string=""
     questions:{questionId: string, answer: answer[]}[]=[]
 }
 
