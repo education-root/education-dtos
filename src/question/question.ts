@@ -49,6 +49,7 @@ export class SubmitQuestionDto{
     historyId?: string;
     classroomId?: string="";
     questionId: string="";
+    stockId?: string=""
     list:answer[] = []
 }
 
