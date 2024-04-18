@@ -9,6 +9,8 @@ export class SubQuestionDto{
     content: string="";
     questionId?: string;
     score: number=0;
+    solution: string="";//解题思路
+    points: string="";//考察知识点
     keywords: KeyWordDto[] = []
 }
 
