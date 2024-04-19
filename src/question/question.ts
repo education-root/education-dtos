@@ -80,4 +80,5 @@ export class GradingDto{
     subQuestionHistoryId: string="";
     comment: string="";
     score: number=0;
+    render: any[] = []
 }
