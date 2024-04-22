@@ -4,6 +4,6 @@ export class SingleTask{
 }
 export class AddTasksAlbumDto{
     tasks: SingleTask[] =[];
-    date: string=""
-    studentId: string = ""
+    date: string="";
+    studentId: string = "";
 }
