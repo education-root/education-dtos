@@ -2,7 +2,7 @@
 export class OptionDto{
     id?: string;
     content: string="";
-    is_correct: boolean=false;
+    is_correct: boolean=false
     topicId?: string
 }
 export class TopicDto{
