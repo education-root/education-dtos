@@ -3,5 +3,5 @@ export class QaQueryByPage{
     pageSize: number=10;
     subjectId?: string
     own?: boolean
-
+    content?: string;
 }
