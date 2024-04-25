@@ -8,3 +8,4 @@ export {QuestionDto, SubQuestionDto, UpdateQuestionDto,QueryQuestionDto,SubmitQu
 export {DifficultyDTO} from './difficulty/difficulty'
 export {JoinClassDto,GenrateStudentAuth} from './student/student'
 export {SingleTask, AddTasksAlbumDto} from './eveluation/eveluation'
+export  {QaQueryByPage} from './qa/qa'
