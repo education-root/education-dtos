@@ -4,6 +4,12 @@ export class KeyWordDto{
     content: string="";
     questionId?: string;
 }
+
+export class AiAnswer{
+    id?: string;
+    answer:string="";
+    score: number=0;
+}
 export class SubQuestionDto{
     id?: string;
     content: string="";
@@ -12,6 +18,7 @@ export class SubQuestionDto{
     solution: string="";//解题思路
     points: string="";//考察知识点
     keywords: KeyWordDto[] = []
+    aiAnswers: AiAnswer[]=[]
 }
 
 
