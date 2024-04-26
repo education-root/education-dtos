@@ -6,6 +6,7 @@ export class CreateClassroomDto{
     desc?: string
     qrcode?: string
     is_show: boolean = true
+    is_ai: boolean = false
 }
 
 export class ClassroomTeacherDto{
@@ -27,6 +28,7 @@ export class ClassroomQueryDto{
     name?:string;
     page: number=1;
     pageSize: number = 10;
+    is_ai?: boolean;
 }
 
 export class ClassroomHistoryQueryDto{
