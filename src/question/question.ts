@@ -6,7 +6,7 @@ export class KeyWordDto{
 }
 
 export class AiAnswer{
-    id?: string;
+    id?: number;
     answer:string="";
     score: number=0;
     questionId?: string;
