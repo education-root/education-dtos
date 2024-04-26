@@ -9,6 +9,7 @@ export class AiAnswer{
     id?: string;
     answer:string="";
     score: number=0;
+    questionId?: string;
 }
 export class SubQuestionDto{
     id?: string;
