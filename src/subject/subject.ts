@@ -16,6 +16,7 @@ export class ChapterDto{
 export class SubjectDto{
     id?: string
     name?: string=""
+    maxScore: number = 0;
     type: "practice"| "mock" = "practice"
     chapters?: ChapterDto[]
 }
