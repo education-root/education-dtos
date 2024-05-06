@@ -7,6 +7,7 @@ export class CreateClassroomDto{
     qrcode?: string
     is_show: boolean = true
     is_ai: boolean = false
+    cover: string=""
 }
 
 export class ClassroomTeacherDto{
